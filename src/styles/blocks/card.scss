@@ -4,9 +4,9 @@
   flex-direction: column;
   width: $card-width;
   padding: 32px 16px 16px;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $card-border-color;
   border-radius: $border-radius;
-  background-color: #fff;
+  background-color: $background-color;
   font-family: $font-family;
 
   transition: transform 300ms ease;
@@ -94,7 +94,9 @@
     line-height: 16px;
     border-radius: $border-radius;
 
-    transition: color 300ms ease;
+    transition:
+      color 300ms ease,
+      background-color 300ms ease;
   }
 
   &__buy:hover {

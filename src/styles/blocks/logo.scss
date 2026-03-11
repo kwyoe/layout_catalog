@@ -1,12 +1,12 @@
 .logo {
-  width: 40px;
-  height: 40px;
+  width: $logo-size;
+  height: $logo-size;
   display: flex;
 
-  &_link {
+  &__link {
     align-items: center;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: $logo-size;
+    height: $logo-size;
   }
 }
